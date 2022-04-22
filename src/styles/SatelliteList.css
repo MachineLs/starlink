@@ -1,0 +1,23 @@
+.sat-list-box {
+    border: 2px solid #ccc;
+    height: 380px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .btn-container {
+    text-align: center;
+  }
+  
+  .sat-list {
+    height: 300px;
+    overflow: auto; /*横得scoll bar取消 */
+  }
+  
+  .spin-box {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    height: 320px;
+  }
+  

@@ -106,7 +106,7 @@ class SatSettingForm extends Component {
        e.preventDefault();
        this.props.form.validateFields((err, values) => {
            if (!err) {
-               // console.log('Received values of form: ', values);
+               // console.log('Received values of form: ', values);这步目的必须得填参数要不然报错
                this.props.onShow(values);
            }
        });
